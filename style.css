@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: hsl(0, 0%, 95%);
+}
+.container {
+  display: flex;
+  width: 65%;
+  margin: auto;
+  align-items: center;
+  height: 100vh;
+}
+.orange {
+  background-color: hsl(31, 77%, 52%);
+  padding: 40px;
+  border-radius: 10px 0px 0px 10px;
+}
+.orange h1 {
+  color: hsl(0, 0%, 95%);
+  font-family: "Big Shoulders Display", cursive;
+  font-weight: 700;
+}
+.orange p {
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  padding-top: 30px;
+  line-height: 30px;
+
+  padding-bottom: 50px;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+.cyan {
+  background-color: hsl(184, 100%, 22%);
+  padding: 40px;
+}
+.cyan h1 {
+  color: hsl(0, 0%, 95%);
+  font-family: "Big Shoulders Display", cursive;
+  font-weight: 700;
+}
+.cyan p {
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  line-height: 30px;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+.dark-cyan {
+  background-color: hsl(179, 100%, 13%);
+  padding: 40px;
+  border-radius: 0px 10px 10px 0;
+}
+.dark-cyan h1 {
+  color: hsl(0, 0%, 95%);
+  font-family: "Big Shoulders Display", cursive;
+  font-weight: 700;
+}
+.dark-cyan p {
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  line-height: 30px;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+.button {
+  background-color: hsl(0, 0%, 95%);
+  padding: 18px;
+  border-radius: 50px;
+  outline: none;
+  border: none;
+  width: 80%;
+}
+.button.cyan {
+  color: hsl(184, 100%, 22%);
+  cursor: pointer;
+}
+.button.cyan a {
+  color: hsl(184, 100%, 22%);
+  cursor: pointer;
+  text-decoration: none;
+}
+.button.dark-cyan {
+  color: hsl(179, 100%, 13%);
+}
+.button.orange {
+  color: hsl(31, 77%, 52%);
+}
+.circle {
+  background: rgba(39, 37, 37, 0.5);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-bottom: 30px;
+  position: relative;
+  opacity: 0.8;
+}
+img {
+  width: 50px;
+  position: absolute;
+  align-items: center;
+  left: 20px;
+  top: 0px;
+}
+.grid-button {
+  background: hsl(256, 74%, 25%);
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  margin-left: 500px;
+  border: none;
+  width: 20%;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+button a {
+  color: white;
+  text-decoration: none;
+}
